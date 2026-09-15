@@ -17,6 +17,11 @@ the current environment.
 Useful ``module`` commands
 ==========================
 
+.. todo:: embed the modules screencast here once it is uploaded. It contrasts the two
+    ways of searching - ``module avail <pattern>``, which matches anywhere in a name,
+    against ``module spider <name>``, which lists one package's versions - then loads a
+    module, verifies it took with ``which``, and unloads it again.
+
   - ``module avail``: display the available packages that can be loaded
   - ``module list``: lists the loaded packages
   - ``module load foo``: to load the package ``foo``

@@ -7,6 +7,12 @@ mention your research computing project ID.
 Building Apprainer Images
 -------------------------
 
+.. todo:: embed the Apptainer screencast here once it is uploaded. It walks through
+    building an image end to end: writing the definition file, taking an interactive
+    session on the ``builder`` partition, building both a writable sandbox and a
+    ``.sif`` in ``/dev/shm``, shelling into each to check the result, and exiting to
+    release the builder node.
+
 In-order to build apptainer images a dedicated partitions is available on Octopus named
 ``container-build``. This partition allows users to build apptainer images with the necessary
 privileges. Note that once an apptainer image is built it can run on any of the compute nodes.

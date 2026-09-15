@@ -54,6 +54,13 @@ Users who wish to extend/create custom python these environment can:
 Jupyter notebooks
 ^^^^^^^^^^^^^^^^^
 
+.. todo:: embed the Jupyter Lab screencast here once it is uploaded. It walks through
+    the workflow end to end: writing the job script, submitting it with ``sbatch``,
+    watching it reach the compute node, reading the port and token out of the log,
+    opening the ``ssh -L`` tunnel, loading Jupyter Lab in a browser and confirming with
+    ``!hostname`` that the notebook really runs on the compute node - then cancelling
+    the job so the node is released.
+
 .. _jupyter_notebook_job_octopus:
 
 A jupyter lab server is run on a compute node to which a user can connect
